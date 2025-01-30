@@ -10,7 +10,8 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    text-align: center;
+    font-size:60px;
     font-weight: 800;
 }
 
@@ -20,30 +21,45 @@ ul li a{
 }
 
 .link {
+    display: block;
+    margin: 10px;
     font-size: 25px;
     color: steelblue;
+    text-align: center;
 }
 
 h2 {
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 600;
+    padding: 20px;
 }
 
 img {
+    display: block;
     height: auto;
-    width: 500px
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 p {
-    font-size: small;
+    font-size: medium;
+    padding: 5px;
 }
 
 ul li {
     background-color: azure;
     font-size: medium;
+    padding: 5px;
 }
 
 ol li {
     background-color: darkkhaki;
     font-size: medium;
+    padding: 15px;
+}
+
+ol {
+    list-style-position: inside;
+    
 }
